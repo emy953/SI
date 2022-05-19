@@ -1,0 +1,2 @@
+rootProject.name = "NodeJSServer"
+include ':app'
