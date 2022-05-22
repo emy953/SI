@@ -3,7 +3,7 @@
 exports.get = async (req, res) => {
     console.log(req.query.name);
     const name=req.query.name;
-    const val=parseInt(req.query.value);
+    const val=parseFloat(req.query.value);
     console.log(name);
  console.log(val);
 request.patch(
