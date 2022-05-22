@@ -1,9 +1,11 @@
  const request = require('request');
 
 exports.get = async (req, res) => {
-    //console.log(req.query.name);
+    console.log(req.query.name);
     const name=req.query.name;
     const val=parseInt(req.query.value);
+    console.log(name);
+ console.log(val);
 request.patch(
     //First parameter API to make post request
     'https://arduino-test-e96d3-default-rtdb.firebaseio.com/arduinoApp.json',
